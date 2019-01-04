@@ -25,7 +25,7 @@ var provider = new HDWalletProvider(mnemonic, "http://localhost:8545");
 var provider = new HDWalletProvider(mnemonic, "http://localhost:8545", 5);
 
 // Or, use your own hierarchical derivation path
-var provider = new HDWalletProvider(mnemonic, "http://localhost:8545", 5, 1, "m/44'/137'/0'/0/");
+var provider = new HDWalletProvider(mnemonic, "http://localhost:8545", 5, 1, "m/44'/237'/0'/0/");
 
 // ...
 // Write your code here.
