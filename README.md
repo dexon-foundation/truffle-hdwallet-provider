@@ -25,7 +25,7 @@ var provider = new HDWalletProvider(mnemonic, "http://localhost:8545");
 var provider = new HDWalletProvider(mnemonic, "http://localhost:8545", 5);
 
 // Or, use your own hierarchical derivation path
-var provider = new HDWalletProvider(mnemonic, "http://localhost:8545", 5, 1, "m/44'/137'/0'/0/");
+var provider = new HDWalletProvider(mnemonic, "http://localhost:8545", 5, 1, "m/44'/237'/0'/0/");
 
 // ...
 // Write your code here.
@@ -46,7 +46,7 @@ Parameters:
 | `address_index` | `number` | `0` | [ ] | If specified, will tell the provider to manage the address at the index specified |
 | `num_addresses` | `number` | `1` | [ ] | If specified, will create `number` addresses when instantiated |
 | `shareNonce` | `boolean` | `true` | [ ] | If false, a new WalletProvider will track its own nonce-state |
-| `wallet_hdpath` | `string` | `"m/44'/60'/0'/0/"` | [ ] | If specified, will tell the wallet engine what derivation path should use to derive addresses. |
+| `wallet_hdpath` | `string` | `"m/44'/237'/0'/0/"` | [ ] | If specified, will tell the wallet engine what derivation path should use to derive addresses. |
 
 
 ### Private Keys
